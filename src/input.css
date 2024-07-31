@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pure-shadow {
+    box-shadow: 0 10px 1px #000;
+}
+.btn-primary {
+    @apply py-3 px-6 rounded-md shadow-md bg-black text-white;
+}
+.heading2 {
+    @apply text-[2.5rem] place-self-center p-2 font-medium bg-[#B9FF66] rounded;
+}
+.card {
+    @apply pure-shadow border border-black rounded-3xl my-5 p-12;
+
+}
+
+.accordion-close {
+    @apply max-h-0;
+}
+.accordion-open {
+    @apply max-h-60;
+}
